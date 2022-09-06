@@ -1,8 +1,10 @@
 import React from "react";
+import { Banner } from './index';
 
 function Home() {
   return (
   <main>
+    <Banner name="home" subtitle="Teste de branch" />
     <div className="home">
       <div className="container">
         <div className="row align-items-center my-5">
