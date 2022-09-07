@@ -360,6 +360,16 @@ img {
   .tab-pane__benefits, .processo__grid {
     grid-template-columns: repeat(2, 1fr) !important;
   }
+  .has-bg::after {
+    display: none;
+  }
+  .localizacao {
+    width: 100% !important;
+    text-align: center;
+  }
+  .grid__status {
+    grid-template-columns: 2fr !important;
+  }
 }
 
 @media screen and (max-width: 660px) {
@@ -369,10 +379,15 @@ img {
   .gridFeita {
     grid-template-columns: 1fr !important;
   }
+  .grid__status {
+    grid-template-columns: 1fr !important;
+  }
 }
 
 
-
+.localizacao {
+  width: 50%;
+}
 .processo__grid {
   display: grid;
   grid-template-columns: repeat(4, 1fr);
@@ -466,4 +481,49 @@ img {
 }
 .bg-green {
   background: var(--primary-bg);
+}
+
+.sac-section h2 {
+  font-size: 28px;
+  font-weight: 600;
+  color: #fff;
+}
+.sac-section p {
+  font-size: 16px;
+  font-weight: 400;
+  margin-bottom: 28px;
+  color: #f5f9ff;
+}
+
+.grid__status {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr 1fr;
+  grid-gap: 1.5rem;
+}
+.status__item {
+  text-align: center;
+}
+.status__item h4 {
+  font-size: 32px;
+  font-weight: 600;
+  color: #fff;
+}
+.status__item p {
+  font-size: 16px;
+  font-weight: 400;
+  color: #f5f9ff;
+}
+.has-bg::after {
+  content: "";
+  position: absolute;
+  width: 50%;
+  height: 100%;
+  background-image: url("https://via.placeholder.com/1033x516");
+  background-repeat: no-repeat;
+  background-position: top;
+  background-size: cover;
+  -o-object-fit: cover;
+  object-fit: cover;
+  right: 0;
+  top: 0;
 }
