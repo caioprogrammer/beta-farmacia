@@ -11,3 +11,4 @@ export { default as Fabricacao } from "./Fabricacao";
 export { default as Logistica } from "./Logistica";
 export { default as Slider } from "./Slider";
 export { default as BannerHome } from "./BannerHome";
+export { default as FormModal } from "./FormModal";

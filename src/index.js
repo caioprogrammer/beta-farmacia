@@ -8,7 +8,8 @@ import {
   About,
   Contact,
   Fabricacao,
-  Logistica
+  Logistica,
+  FormModal
 } from "./Components";
 
 
@@ -17,6 +18,7 @@ const container = document.getElementById('root');
 const root = createRoot(container);
 root.render( 
 <Router>
+  <FormModal />
   <Navigation />
   {/* <Home /> */}
   <Routes>

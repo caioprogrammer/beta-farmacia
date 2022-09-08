@@ -75,7 +75,7 @@ const Nutraceuticos = () => {
                       Antioxidante
                     </span>
                   </div>
-                  <a href="#0" className='redirectButton'>
+                  <a data-toggle="modal" data-target="#exampleModalCenter" href="#0" className='redirectButton'>
                     Quero ser parceiro
                   </a>
                 </div>
@@ -120,7 +120,7 @@ const Nutraceuticos = () => {
                       Antioxidante
                     </span>
                   </div>
-                  <a href="#0" className='redirectButton'>
+                  <a data-toggle="modal" data-target="#exampleModalCenter" href="#0" className='redirectButton'>
                     Quero ser parceiro
                   </a>  
                 </div>
