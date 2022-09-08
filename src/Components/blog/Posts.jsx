@@ -15,7 +15,7 @@ function Posts() {
               />
             </div>
             <div className="col-lg-5">
-              <h1 className="font-weight-light">This is a post title</h1>
+              <h2>This is a post title</h2>
               <p>
                 Lorem Ipsum is simply dummy text of the printing and typesetting
                 industry. Lorem Ipsum has been the industry's standard dummy

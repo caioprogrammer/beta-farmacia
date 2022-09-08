@@ -8,7 +8,7 @@
 }
 :root {
   --white: #fff;
-  --primary-bg: #237d68;
+  --primary-bg: #23af70;
   --body-bg: #f5f9ff;
   --link-light: var(--white);
   --link-dark: var(--link-dark);
@@ -28,6 +28,20 @@ input, textarea {
 img {
   width: 100%;
   max-width: 100%;
+}
+h2 {
+  font-size: 28px;
+  font-weight: 600;
+  color: #4a4a4a;
+}
+
+
+
+
+.bg-green h2,
+.bg-green p,
+.bg-green {
+  color: #fff;
 }
 .navbar {
   margin: 2rem auto 0;
@@ -84,8 +98,6 @@ img {
 
 
 .info__ajuda h2 {
-  font-size: 28px;
-  font-weight: 600;
   margin-bottom: 2rem;
   color: var(--link-dark);
   display: block;
@@ -475,8 +487,6 @@ img {
   color: #f5f9ff
 }
 .anvisa h2 {
-  font-size: 28px;
-  font-weight: 600;
   color: #fff;
 }
 .bg-green {
@@ -484,8 +494,6 @@ img {
 }
 
 .sac-section h2 {
-  font-size: 28px;
-  font-weight: 600;
   color: #fff;
 }
 .sac-section p {
