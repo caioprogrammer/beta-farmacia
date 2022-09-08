@@ -1,4 +1,15 @@
+export {default as Processo } from "./Processo";
+export {default as ProcessosLog } from "./ProcessoLogistica";
 export { default as Lider } from "./Lider";
 export { default as Nutraceuticos } from "./Nutraceuticos";
 export { default as Ecosistema } from "./Ecosistema";
 export { default as AboutUs } from "./AboutUs";
+export { default as Parcerias } from "./Parcerias";
+export { default as Fiscal } from "./Fiscal";
+export { default as Localizacao } from "./Localizacao";
+export { default as SAC } from "./SAC";
+export { default as Carefee } from "./Carefee";
+export { default as Lidar } from "./Lidar";
+export { default as EmpresaGrid } from "./EmpresaGrid";
+export { default as Anvisa } from "./Anvisa";
+export { default as Fill } from "./Fill";

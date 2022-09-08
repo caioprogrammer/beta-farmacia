@@ -29,12 +29,44 @@ img {
   width: 100%;
   max-width: 100%;
 }
+h1 {
+  font-size: 32px;
+  font-weight: 700;
+  margin-bottom: 10px;
+}
 h2 {
   font-size: 28px;
   font-weight: 600;
   color: #4a4a4a;
 }
+p {
+  font-size: 16px;
+  font-weight: 500;
+}
 
+
+
+.ecosistema h2 {
+  font-size: 36px;
+}
+
+
+a.redirectButton {
+  color: #fff;
+  background-color: #f7155e;
+  font-weight: 500;
+  padding: 12px 24px;
+  border-radius: 8px;
+  transition: all .3s;
+  display: inline-block;
+}
+
+a.redirectButton svg {
+  transition: ease-in-out .3s margin;
+}
+a.redirectButton:hover svg {
+  margin-left: 10px;
+}
 
 
 
@@ -46,7 +78,7 @@ h2 {
 .navbar {
   margin: 2rem auto 0;
   max-width: 1120px;
-  padding: 16px 36px;
+  padding: 8px 24px;
   border-radius: 20px;
   font-weight: 500;
   color: var(--link-dark);
@@ -111,8 +143,6 @@ h2 {
   align-items: center;
 }
 .info__ajuda p {
-  font-size: 16px;
-  font-weight: 400;
   color: #626262;
   max-width: 350px
 }
@@ -186,8 +216,6 @@ h2 {
         "ondeEstamos ondeEstamos sac dadosDaEmpresa dadosDaEmpresa";
 }
 .footer__top p {
-  font-size: 16px;
-  font-weight: 600;
   margin-bottom: 12px;
   color: var(--white);
 }
@@ -249,14 +277,15 @@ h2 {
   background-color: var(--primary-bg) !important;
   opacity: .7;
 }
+.banner__sections.bg-full::after {
+  opacity: 1;
+}
+
+
 .banner__sections h1 {
-  font-size: 36px;
-  margin-bottom: 6px;
   color: var(--white);
 }
 .banner__sections p {
-  font-size: 16px;
-  font-weight: 400;
   max-width: 600px;
   color: #f5f9ff;
 }
@@ -382,6 +411,9 @@ h2 {
   .grid__status {
     grid-template-columns: 2fr !important;
   }
+  .logistica {
+    max-width: 100% !important;
+  }
 }
 
 @media screen and (max-width: 660px) {
@@ -432,8 +464,6 @@ h2 {
   color: #4a4a4a;
 }
 .grid__item p {
-  font-size: 16px;
-  font-weight: 400;
   color: #626262;
 }
 
@@ -453,8 +483,6 @@ h2 {
   gap: 0.5rem;
 }
 .feita__item p {
-  font-size: 16px;
-  font-weight: 500;
   max-width: 280px;
   color: #626262;
 }
@@ -481,8 +509,6 @@ h2 {
 
 
 .anvisa p {
-  font-size: 16px;
-  font-weight: 400;
   margin-bottom: 28px;
   color: #f5f9ff
 }
@@ -497,8 +523,6 @@ h2 {
   color: #fff;
 }
 .sac-section p {
-  font-size: 16px;
-  font-weight: 400;
   margin-bottom: 28px;
   color: #f5f9ff;
 }
@@ -517,8 +541,6 @@ h2 {
   color: #fff;
 }
 .status__item p {
-  font-size: 16px;
-  font-weight: 400;
   color: #f5f9ff;
 }
 .has-bg::after {

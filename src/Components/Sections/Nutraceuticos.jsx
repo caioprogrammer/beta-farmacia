@@ -16,14 +16,14 @@ const Nutraceuticos = () => {
                   Nutracêuticos
                 </a>
               </li>
-              <li className="nav-item">
+              {/* <li className="nav-item">
                 <a
                   className="nav-link" id="pills-profile-tab"
                   data-toggle="pill" href="#pills-cosmeticos"
                   role="tab" aria-controls="pills-cosmeticos" aria-selected="false">
                   Cosméticos
                 </a>
-              </li>
+              </li> */}
             </ul>
             <div className="tab-content" id="pills-tabContent">
               <div className="tab-pane fade show active my-5 align-items-start" id="pills-nutra" role="tabpanel" aria-labelledby="pills-home-tab">
@@ -75,10 +75,12 @@ const Nutraceuticos = () => {
                       Antioxidante
                     </span>
                   </div>
-
+                  <a href="#0" className='redirectButton'>
+                    Quero ser parceiro
+                  </a>
                 </div>
               </div>
-              <div className="tab-pane fade my-5 align-items-start" id="pills-cosmeticos" role="tabpanel" aria-labelledby="pills-profile-tab">
+              {/* <div className="tab-pane fade my-5 align-items-start" id="pills-cosmeticos" role="tabpanel" aria-labelledby="pills-profile-tab">
                 <div className='tab-pane__img mr-lg-5 col-lg-4'>
                   <img className='mw-100' src="https://via.placeholder.com/400x336" alt="placeholder" />
                 </div>
@@ -118,8 +120,11 @@ const Nutraceuticos = () => {
                       Antioxidante
                     </span>
                   </div>
+                  <a href="#0" className='redirectButton'>
+                    Quero ser parceiro
+                  </a>  
                 </div>
-              </div>
+              </div> */}
             </div>
       </div>
     </section>
