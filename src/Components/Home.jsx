@@ -14,7 +14,9 @@ import {
   Carefee,
   Lidar,
   EmpresaGrid,
-  Anvisa
+  Anvisa,
+  Porque,
+  Burocracia
 } from './Sections/sections'
 
 function Home() {
@@ -75,6 +77,12 @@ function Home() {
     <Localizacao />
 
     <SAC />
+
+
+    <Porque />
+
+    <Burocracia />
+
 
     <Carefee />
 

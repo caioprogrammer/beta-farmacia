@@ -4,7 +4,7 @@ import logoFooter from '../assets/logo_branca.png';
 function Footer() {
   return (
     <div className="footer mt-5">
-      <div className="py-4 border-bottom border-top">
+      {/* <div className="py-4 border-bottom border-top">
         <div className="container grid__status">
           <div className="status__item">
             <h4>14</h4>
@@ -22,7 +22,7 @@ function Footer() {
             <p>Clientes</p>
           </div>
         </div>
-      </div>
+      </div> */}
       <div className="container">
         <div className="footer__top border-bottom py-5">
           <div className="acesso">
@@ -56,7 +56,7 @@ function Footer() {
           <div className="ondeEstamos">
             <p>Onde Estamos?</p>
             <a href="#0">
-              Av. Industrial, 1120 - Distrito Industrial, Governador Valadares (MG) CEP: 35040-610
+            Av. Santa Cruz, 1755 - Itaporanga - SP | CEP: 18480-000
             </a>
           </div>
           <div className="sac">
@@ -66,7 +66,8 @@ function Footer() {
           <div className="dados">
             <p>Dados da Empresa</p>
             <a href="#0">
-              Empresa Comercial LTDA <br /> CNPJ: 99.999.999/0001-99
+            Italabs Nutracêuticos Ltda. <br /> 
+            CNPJ: 39-747.421/0001-16
             </a>
           </div>
         </div>

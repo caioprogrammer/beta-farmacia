@@ -1,3 +1,5 @@
+import { iconConfiavel, iconFacilidade, iconSacCompleto, iconVelocidade } from "../assets"
+
 export const processos = [
   {
     id: 1,
@@ -57,5 +59,32 @@ export const processosLog = [
     number: "4",
     choice: "Expedição e Entrega",
     text: `Seu pedido é expedido e entregue para o seu cliente de forma rápida e segura.`
+  },
+]
+
+export const porque = [
+  {
+    id: 1,
+    img: iconVelocidade,
+    motivo: "Velocidade",
+    texto: "Fabricação e entrega sempre dentro do prazo."
+  },
+  {
+    id: 2,
+    img: iconFacilidade,
+    motivo: "Facilidade",
+    texto: "Todas as suas notas fiscais emitidas automaticamente."
+  },
+  {
+    id: 3,
+    img: iconConfiavel,
+    motivo: "Confiável",
+    texto: "Boa reputação no Reclame Aqui."
+  },
+  {
+    id: 4,
+    img: iconSacCompleto,
+    motivo: "SAC Completo",
+    texto: "Suporte ao seu cliente final sem custo adicional."
   },
 ]

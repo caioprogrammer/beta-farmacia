@@ -1,7 +1,9 @@
-import React, { useState } from 'react'
+import React, { useState, useRef } from 'react';
+import emailjs from 'emailjs-com';
 
 const FormModal = () => {
 
+  const form = useRef();
   const [name, setName] = useState("");
   const [email, setEmail] = useState("");
   const [assunto, setAssunto] = useState("");
@@ -11,10 +13,19 @@ const FormModal = () => {
   const handleChange = (event) => {
     setTextarea(event.target.value)
   }
-  const handleSubmit = (event) => {
-    event.preventDefault();
-    alert(`The name you entered was: ${name} | ${email} ${assunto}, ${textarea}`)
-  }
+
+
+  function sendSubmit(e) {
+    e.preventDefault();
+
+    emailjs.sendForm('gmail_testMessage', 'template_8up2c46', form.current, 'xOTHsZXlHe_hLzkYH')
+      .then((result) => {
+        alert('Mensagem enviada com sucesso! :')
+      }, (error) => {
+          console.log(error.message);
+      });
+      e.target.reset();
+  };
 
   return (
     <div className='modalForm'>
@@ -28,7 +39,7 @@ const FormModal = () => {
               </button>
             </div>
             <div className="modal-body">
-              <form onSubmit={handleSubmit} className="contact__form">
+              <form ref={form} onSubmit={sendSubmit} className="contact__form">
                 <div className="">
                   <label htmlFor="name">Nome Completo</label>
                   <input value={name} onChange={(e) => setName(e.target.value)} className="mw-100" type="text" id="name" name="name" placeholder="Digite seu nome" required=""/>
@@ -43,7 +54,7 @@ const FormModal = () => {
                 </div>
                 <div className="">
                   <label htmlFor="mensagem">Mensagem</label>
-                  <textarea value={textarea} onChange={handleChange} className="mw-100" rows="3" id="mensagem" name="mensagem" placeholder=" Escreva sua mensagem..." required=""></textarea>
+                  <textarea value={textarea} onChange={handleChange} className="mw-100" rows="3" id="mensagem" name="message" placeholder=" Escreva sua mensagem..." required=""></textarea>
                 </div>
                 <div>
                   <button className="mw-100" type="submit">Enviar Mensagem </button>

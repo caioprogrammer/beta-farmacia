@@ -75,7 +75,19 @@ p {
 
 
 
-
+.razao-grid {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  grid-gap: 2rem;
+  gap: 2rem;
+}
+.razao-item {
+  text-align: center;
+  padding: 32px 14px;
+  background: linear-gradient(116.39deg,#f5f9ff -20.58%,#eff1f9);
+  border: 2px solid #fff;
+  border-radius: 8px;
+}
 
 
 .ecosistema h2 {
@@ -133,7 +145,7 @@ a.redirectButton:hover svg {
 
 .link-parceiro {
   color: var(--white) !important;
-  background-color: #f7155e;
+  background-color: #f00;
   border-radius: 10px;
 }
 
@@ -461,7 +473,7 @@ a.redirectButton:hover svg {
 }
 
 
-.localizacao {
+.burocracia, .localizacao {
   width: 50%;
 }
 .processo__grid {
@@ -575,14 +587,19 @@ a.redirectButton:hover svg {
 .status__item p {
   color: #f5f9ff;
 }
+.burocra.has-bg::after {
+  background-image: url("https://via.placeholder.com/1033x516");
+}
+.localiza.has-bg::after {
+  background-image: url("https://via.placeholder.com/1033x516");
+}
 .has-bg::after {
   content: "";
   position: absolute;
   width: 50%;
   height: 100%;
-  background-image: url("https://via.placeholder.com/1033x516");
   background-repeat: no-repeat;
-  background-position: top;
+  background-position: center;
   background-size: cover;
   -o-object-fit: cover;
   object-fit: cover;

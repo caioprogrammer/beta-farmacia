@@ -1,11 +1,11 @@
 import React from 'react'
 
-const Localizacao = (props) => {
+const Burocracia = (props) => {
   return (
-    <section className='localiza has-bg mt-4 position-relative' style={{padding: "4rem 1rem", background: "#e6e9f3"}}>
+    <section className='burocra has-bg mt-4 position-relative' style={{padding: "4rem 1rem", background: "#e6e9f3"}}>
           <div className="container">
-            <div className='localizacao'>
-              <h2>Localização estratégica</h2>
+            <div className='burocracia'>
+              <h2>Sem Burocracia</h2>
               <p>
                 O nosso centro de distribuição está 
                 localizado em Governador Valadares (MG), 
@@ -21,4 +21,4 @@ const Localizacao = (props) => {
   )
 }
 
-export default Localizacao
+export default Burocracia

@@ -13,3 +13,5 @@ export { default as Lidar } from "./Lidar";
 export { default as EmpresaGrid } from "./EmpresaGrid";
 export { default as Anvisa } from "./Anvisa";
 export { default as Fill } from "./Fill";
+export { default as Porque } from "./Porque";
+export { default as Burocracia } from "./Burocracia"; 
