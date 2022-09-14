@@ -1,4 +1,5 @@
 import React from 'react'
+import { Principal3 } from '../../assets'
 
 const Ecosistema = (props) => {
   return (
@@ -18,8 +19,8 @@ const Ecosistema = (props) => {
               </a>
         </div>
         <div className="col-lg-7 text-right">
-          <img style={{maxWidth: "510px"}} className="rounded"
-            src="https://via.placeholder.com/440x510"
+          <img style={{maxWidth: "100%"}} className="rounded"
+            src={Principal3}
             alt=""
           />
         </div>

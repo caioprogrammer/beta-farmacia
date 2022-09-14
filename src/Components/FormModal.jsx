@@ -6,7 +6,9 @@ const FormModal = () => {
   const form = useRef();
   const [name, setName] = useState("");
   const [email, setEmail] = useState("");
+  // const [cnpj, setCnpj] = useState("");
   const [assunto, setAssunto] = useState("");
+  const [values, setValues] = useState({ cnpj: '' })
 
   const [textarea, setTextarea] = useState("");
 
@@ -14,6 +16,13 @@ const FormModal = () => {
     setTextarea(event.target.value)
   }
 
+  const inputChange = (e) => {
+    const { name, value } = e.target
+    setValues({
+      ...values,
+      [name]: value
+    })
+  }
 
   function sendSubmit(e) {
     e.preventDefault();
@@ -26,6 +35,15 @@ const FormModal = () => {
       });
       e.target.reset();
   };
+  const cnpjMask = (value) => {
+    return value
+      .replace(/\D+/g, '') // não deixa ser digitado nenhuma letra
+      .replace(/(\d{2})(\d)/, '$1.$2') // captura 2 grupos de número o primeiro com 2 digitos e o segundo de com 3 digitos, apos capturar o primeiro grupo ele adiciona um ponto antes do segundo grupo de número
+      .replace(/(\d{3})(\d)/, '$1.$2')
+      .replace(/(\d{3})(\d)/, '$1/$2') // captura 2 grupos de número o primeiro e o segundo com 3 digitos, separados por /
+      .replace(/(\d{4})(\d)/, '$1-$2')
+      .replace(/(-\d{2})\d+?$/, '$1') // captura os dois últimos 2 números, com um - antes dos dois números
+  }
 
   return (
     <div className='modalForm'>
@@ -33,7 +51,7 @@ const FormModal = () => {
         <div className="modal-dialog modal-dialog-centered" role="document">
           <div className="modal-content">
             <div className="modal-header">
-              <h5 className="modal-title" id="exampleModalCenterTitle">Modal title</h5>
+              <h5 className="modal-title" id="exampleModalCenterTitle">Quero ser Parceiro !</h5>
               <button type="button" className="close" data-dismiss="modal" aria-label="Close">
                 <span aria-hidden="true">&times;</span>
               </button>
@@ -47,6 +65,10 @@ const FormModal = () => {
                 <div className="">
                   <label htmlFor="email">Email</label>
                   <input value={email} onChange={(e) => setEmail(e.target.value)} className="mw-100" type="email" id="email" name="email" placeholder=" Ex: seunome@gmail.com" required=""/>
+                </div>
+                <div className="">
+                  <label htmlFor="cnpj">CNPJ</label>
+                  <input value={cnpjMask(values.cnpj)} onChange={inputChange} className="mw-100" type="text" id="cnpj" name="cnpj" placeholder="Seu CNPJ" required=""/>
                 </div>
                 <div className="">
                   <label htmlFor="assunto">Assunto</label>

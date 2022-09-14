@@ -60,6 +60,8 @@ function Footer() {
           <div className="sac">
             <p>SAC</p>
             <a href="#0">(15)99626-0340</a>
+            <a href="#0">(15) 99679-4076</a>
+            <a href="#0">(47) 99124-1414</a>
           </div>
           <div className="dados">
             <p>Dados da Empresa</p>

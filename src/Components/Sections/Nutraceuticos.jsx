@@ -1,4 +1,5 @@
 import React from 'react'
+import { Principal4 } from '../../assets'
 
 const Nutraceuticos = (props) => {
   return (
@@ -28,7 +29,7 @@ const Nutraceuticos = (props) => {
             <div className="tab-content" id="pills-tabContent">
               <div className="tab-pane fade show active my-5 align-items-start" id="pills-nutra" role="tabpanel" aria-labelledby="pills-home-tab">
                 <div className='tab-pane__img mr-lg-5 col-lg-4'>
-                  <img className='mw-100' src="https://via.placeholder.com/400x336" alt="placeholder" />
+                  <img className='mw-100' src={Principal4} alt="placeholder" />
                 </div>
                 <div className="tab-pane__content col-lg-8">
                   <h2>Nutracêuticos</h2>

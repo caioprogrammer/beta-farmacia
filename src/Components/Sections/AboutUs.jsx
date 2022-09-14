@@ -1,4 +1,5 @@
 import React from 'react'
+import { Principal2 } from '../../assets'
 
 const AboutUs = (props) => {
   return (
@@ -7,8 +8,8 @@ const AboutUs = (props) => {
         <div className="row align-items-center my-5">
           <div className="col-lg-7">
             <img style={{maxWidth: "530px"}} className="rounded"
-              src="https://via.placeholder.com/530x470"
-              alt=""
+              src={Principal2}
+              alt="Imagem de referência Sobre nossa empresa"
             />
           </div>
           <div className="col-lg-5">

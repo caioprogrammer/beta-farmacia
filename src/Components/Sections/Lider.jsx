@@ -1,4 +1,5 @@
 import React from 'react'
+import { Fabricacao1 } from '../../assets'
 
 const Lider = (props) => {
   return (
@@ -21,7 +22,7 @@ const Lider = (props) => {
           </div>
           <div className="col-lg-6 py-3 py-lg-auto col-md-12 text-md-center">
             <div>
-              <img className="mw-100" alt="slider" src="https://via.placeholder.com/535x400" />
+              <img className="mw-100 rounded" alt="slider" src={Fabricacao1} />
             </div>
           </div>
         </div>
