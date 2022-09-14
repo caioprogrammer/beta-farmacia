@@ -1,10 +1,10 @@
 import React from 'react';
 import { processos } from "../contents";
 
-const Processo = () => {
+const Processo = (props) => {
   return (
     <section className="processo py-4">
-    <div style={{background: "#e6e9f3"}} className="bg-new py-5">
+    <div data-aos={props.effect} style={{background: "#e6e9f3"}} className="bg-new py-5">
           <div className='container position-relative'>
           <h2 className='text-center'>O nosso processo de fabricação</h2>
           <p className='text-center'>Confira como é fácil tirar a sua ideia do papel!</p>

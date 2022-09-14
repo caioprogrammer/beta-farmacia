@@ -1,9 +1,9 @@
 import React from 'react'
 
-const Nutraceuticos = () => {
+const Nutraceuticos = (props) => {
   return (
     <section className="nutraceuticos py-4">
-      <div className="container">
+      <div data-aos={props.effect} className="container">
             <ul className="nav nav-pills mb-3 justify-content-between" id="pills-tab" role="tablist">
               <li className="nav-item">
                 <a className="nav-link active"

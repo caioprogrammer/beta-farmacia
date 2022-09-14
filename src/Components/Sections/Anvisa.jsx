@@ -1,9 +1,9 @@
 import React from 'react'
 
-const Anvisa = () => {
+const Anvisa = (props) => {
   return (
     <section className="bg-green">
-    <div className="container py-5 py-lg-0 d-flex flex-column flex-lg-row align-items-center justify-content-between">
+    <div data-aos={props.effect} className="container py-5 py-lg-0 d-flex flex-column flex-lg-row align-items-center justify-content-between">
       <div className='anvisa col-md-6'>
         <h2>Produtos aprovados pela ANVISA</h2>
         <p>

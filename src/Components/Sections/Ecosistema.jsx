@@ -3,7 +3,7 @@ import React from 'react'
 const Ecosistema = (props) => {
   return (
     <section className="ecosistema bg-green py-4">
-      <div className="container">
+      <div data-aos={props.effect} className="container">
       <div className="d-flex flex-md-row flex-column justify-content-between align-items-center my-5">
         <div className="col-lg-5">
               <h2>

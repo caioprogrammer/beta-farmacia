@@ -1,9 +1,9 @@
 import React from 'react'
 
-const EmpresaGrid = () => {
+const EmpresaGrid = (props) => {
   return (
     <section className="empresa py-4">
-    <div className="container py-5">
+    <div data-aos={props.effect} className="container py-5">
         <h2 className="text-center font-weight-bold mb-5">A Empresa é feita para você que:</h2>
         <div className="gridFeita">
           <div className='feita__item'>

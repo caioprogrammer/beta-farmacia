@@ -1,9 +1,9 @@
 import React from 'react'
 
-const Parcerias = () => {
+const Parcerias = (props) => {
   return (
     <section className="bg-green mt-5">
-    <div className="container py-5 py-lg-0 d-flex flex-column flex-lg-row align-items-center justify-content-between">
+    <div data-aos={props.effect} className="container py-5 py-lg-0 d-flex flex-column flex-lg-row align-items-center justify-content-between">
       <div className='anvisa col-md-6'>
         <h2>Parcerias de sucesso</h2>
         <p>

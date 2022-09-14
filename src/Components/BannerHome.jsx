@@ -3,7 +3,7 @@ import React from 'react';
 
 const BannerHome = (props) => {
   return (
-    <div className="banner__sections bg-full">
+    <div data-aos={props.effect} className="banner__sections bg-full">
       <div className='container flex-column flex-lg-row d-flex'>
         <div className="textHome col-12 col-lg-6">
           <h1>{props.name}</h1>

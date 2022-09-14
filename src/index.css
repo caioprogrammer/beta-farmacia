@@ -13,8 +13,13 @@
   --link-light: var(--white);
   --link-dark: var(--link-dark);
 }
+html {
+  scroll-behavior: smooth;
+  overflow-x: hidden;
+}
 body {
   background-color: var(--body-bg);
+  overflow-x: hidden;
 }
 a, a:hover, a:focus, button, button:hover {
   text-decoration: none;

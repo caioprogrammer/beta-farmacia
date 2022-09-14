@@ -1,10 +1,10 @@
 import React from 'react';
 import { porque } from '../contents';
 
-const Porque = () => {
+const Porque = (props) => {
   return (
     <section className='porque'>
-      <div className="container py-5">
+      <div data-aos={props.effect} className="container py-5">
       <div className="row align-items-center ">
           <div className="col-lg-6 col-md-12">
             <h2>Por que escolher a Italabs?</h2>

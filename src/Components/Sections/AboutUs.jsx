@@ -1,9 +1,9 @@
 import React from 'react'
 
-const AboutUs = () => {
+const AboutUs = (props) => {
   return (
     <section className="home">
-      <div className="container">
+      <div data-aos={props.effect} className="container">
         <div className="row align-items-center my-5">
           <div className="col-lg-7">
             <img style={{maxWidth: "530px"}} className="rounded"
