@@ -7,14 +7,13 @@ const Porque = () => {
       <div className="container py-5">
       <div className="row align-items-center ">
           <div className="col-lg-6 col-md-12">
-            <h2>Por que escolher a Empresa?</h2>
+            <h2>Por que escolher a Italabs?</h2>
             <p>
-            A Kapsula oferece diversos serviços 
-            exclusivos para seus parceiros, sempre 
-            com o intuito de fazer mais e melhor.
-            Um super time, composto por grandes 
-            profissionais do mercado, que te 
-            auxiliarão no caminho rumo ao sucesso!
+            A Italabs oferece diversas soluções e estratégicas 
+            para seus parceiros, sempre com o intuito de fazer mais e melhor. 
+            Um time multiprofissional formado por Farmacêuticos, 
+            Nutricionistas e Engenheiros irão te auxiliar 
+            no caminho rumo ao sucesso.
             </p>
             <a data-toggle="modal" data-target="#exampleModalCenter" href="#0" className='redirectButton'>
               Quero ser parceiro

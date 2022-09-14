@@ -12,26 +12,26 @@ export const processos = [
   {
     id: 2,
     number: "2",
-    choice: "Escolha do produto",
-    text: `Escolher o produto ideal faz toda a diferença. 
-    Nosso time entende com precisão a sua necessidade 
-    e ajuda a escolher o melhor para você.`
+    choice: "Fórmula",
+    text: `Desenvolvemos junto com você a 
+    fórmula mais viável para a fabricação do produto. 
+    Temos um time altamente qualificado.`
   },
   {
     id: 3,
     number: "3",
-    choice: "Escolha do produto",
-    text: `Escolher o produto ideal faz toda a diferença. 
-    Nosso time entende com precisão a sua necessidade 
-    e ajuda a escolher o melhor para você.`
+    choice: "Fabricação",
+    text: `Ficamos responsáveis por toda 
+    fabricação do seu produto, desde o design 
+    até a embalagem. 
+    Cuidamos de todos os detalhes.`
   },
   {
     id: 4,
     number: "4",
-    choice: "Escolha do produto",
-    text: `Escolher o produto ideal faz toda a diferença. 
-    Nosso time entende com precisão a sua necessidade 
-    e ajuda a escolher o melhor para você.`
+    choice: "Registros e aprovações",
+    text: `Garantimos a regularização do seu 
+    produto dentro da legalidade e normas da ANVISA.`
   },
 ]
 
