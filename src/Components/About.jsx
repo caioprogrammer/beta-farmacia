@@ -5,7 +5,7 @@ import { Banner, Slider } from "./index";
 
 function About() {
   const title = "Sobre Nós"
-  const subtitle = "Somos pioneira, e temos valores fortes que nos fazem ser sempre a melhor!";
+  const subtitle = "Somos a Italabs Indústria de Nutracêuticos e estamos aqui para ser seu parceiro, criar sua marca, terceirizar a fabricação de seus produtos e te ajudar a alavancar seu negócio. ";
   return (
   <section>
     <Banner 
@@ -17,15 +17,21 @@ function About() {
         <div className="row align-items-center ">
           <div className="col-lg-6 col-md-12">
             <h2>A Empresa</h2>
-            <p>A Empresa nasceu com o objetivo de ajudar outras pessoas a conquistarem sua independência financeira através da internet.</p>
             <p>
-            A partir de sua experiência, Kaisser percebeu que ali surgia um modelo pioneiro de negócio e resolveu oferecer aos seus parceiros um serviço completo que ia desde a criação do produto até a entrega ao cliente final.
+              A partir de 25 anos de experiência no ramo do varejo farmacêutico e 
+              farmácia de manipulação, a família Tulio percebeu a necessidade e oportunidade em ajudar 
+              empreendedores a realizar o sonho em ter seu próprio negócio no segmento de nutracêuticos. 
             </p>
             <p>
-            A Kapsula, se firmava, então, como a primeira empresa Full E-Commerce especializada em encapsulados e logística. A empresa começa a crescer em proporções exponenciais e logo chama a atenção de todo o país.    
+              A empresa Italabs, localizada na cidade de Itaporanga-SP, 
+              vem para facilitar você empreendedor a criar sua marca com segurança, 
+              desenvolver seus produtos dentro das legislações pertinentes e permitir iniciar seu 
+              negócio com baixo investimento além de apresentar soluções para te ajudar a vender.
             </p>
             <p>
-            Nos últimos anos, a Kapsula expandiu tanto a sua estrutura, quanto os seus serviços.
+              Contamos com profissionais farmacêuticos, Nutricionistas e Especialistas em Marketing, 
+              que irão te proporcionar profissionalismo e confiança na criação, 
+              expansão e valorização da sua marca.
             </p>
           </div>
           <div className="col-lg-6 col-md-12 text-md-center">
@@ -65,27 +71,26 @@ function About() {
             <svg xmlns="http://www.w3.org/2000/svg" width="75" height="75" viewBox="0 0 75 75" fill="none"><circle cx="37.5" cy="37.5" r="37.5" fill="url(#a)"/><path d="M39.88 36.12 25.74 50.26m1.526-10.262-6.926-1.636a1 1 0 0 1-.478-1.68l5.508-5.508a2 2 0 0 1 1.398-.586l6.21-.054" stroke="#fff" strokeWidth="2.5" strokeLinecap="round" strokeLinejoin="round"/><path clipRule="evenodd" d="m53.758 31.95 1.616-7.776c.44-2.116-1.432-3.988-3.548-3.548l-7.776 1.616c-2.29.476-4.39 1.61-6.042 3.264l-6.38 6.378a16.012 16.012 0 0 0-4.518 8.996l-.022.146a6.962 6.962 0 0 0 1.964 5.922v0a6.952 6.952 0 0 0 5.922 1.962l.146-.022a16 16 0 0 0 8.996-4.518l6.378-6.378a11.985 11.985 0 0 0 3.264-6.042v0Z" stroke="#fff" strokeWidth="2.5" strokeLinecap="round" strokeLinejoin="round"/><path d="M40.8 23.428A44.83 44.83 0 0 1 52.572 35.2M36 48.734l1.636 6.926a1 1 0 0 0 1.68.478l5.508-5.508a2 2 0 0 0 .586-1.398l.054-6.21" stroke="#fff" strokeWidth="2.5" strokeLinecap="round" strokeLinejoin="round"/><defs><linearGradient id="a" x1="37.5" y1="0" x2="37.5" y2="75" gradientUnits="userSpaceOnUse"><stop stopColor="#23AF70"/><stop offset="1" stopColor="#25DC8C"/></linearGradient></defs></svg>
             <h4>Missão</h4>
             <p>
-            Criar e fornecer produtos, ferramentas e 
-            soluções de excelência que ajudem nossos clientes 
-            a obter sua independência financeira 
-            por meio da Internet.
+            Criar e produzir produtos, 
+            fornecer soluções de excelência para ajudar a 
+            criar sua independência financeira no 
+            segmento de terceirização de nutracêuticos. 
             </p>
           </div>
           <div className="about__bottom card">
             <svg xmlns="http://www.w3.org/2000/svg" width="75" height="75" viewBox="0 0 75 75" fill="none"><circle cx="37.5" cy="37.5" r="37.5" fill="url(#a)"/><path d="M39.88 36.12 25.74 50.26m1.526-10.262-6.926-1.636a1 1 0 0 1-.478-1.68l5.508-5.508a2 2 0 0 1 1.398-.586l6.21-.054" stroke="#fff" strokeWidth="2.5" strokeLinecap="round" strokeLinejoin="round"/><path clipRule="evenodd" d="m53.758 31.95 1.616-7.776c.44-2.116-1.432-3.988-3.548-3.548l-7.776 1.616c-2.29.476-4.39 1.61-6.042 3.264l-6.38 6.378a16.012 16.012 0 0 0-4.518 8.996l-.022.146a6.962 6.962 0 0 0 1.964 5.922v0a6.952 6.952 0 0 0 5.922 1.962l.146-.022a16 16 0 0 0 8.996-4.518l6.378-6.378a11.985 11.985 0 0 0 3.264-6.042v0Z" stroke="#fff" strokeWidth="2.5" strokeLinecap="round" strokeLinejoin="round"/><path d="M40.8 23.428A44.83 44.83 0 0 1 52.572 35.2M36 48.734l1.636 6.926a1 1 0 0 0 1.68.478l5.508-5.508a2 2 0 0 0 .586-1.398l.054-6.21" stroke="#fff" strokeWidth="2.5" strokeLinecap="round" strokeLinejoin="round"/><defs><linearGradient id="a" x1="37.5" y1="0" x2="37.5" y2="75" gradientUnits="userSpaceOnUse"><stop stopColor="#23AF70"/><stop offset="1" stopColor="#25DC8C"/></linearGradient></defs></svg>
             <h4>Visão</h4>
             <p>
-            Ser reconhecida pelo mercado como a melhor
-             solução para quem deseja atingir independência
-              financeira por meio da Internet.
+              Ser reconhecida pelo mercado como o 
+              melhor parceiro para atingir sua independência 
+              financeira no segmento de nutracêuticos. 
             </p>
           </div>
           <div className="about__bottom card">
             <svg xmlns="http://www.w3.org/2000/svg" width="75" height="75" viewBox="0 0 75 75" fill="none"><circle cx="37.5" cy="37.5" r="37.5" fill="url(#a)"/><path d="M39.88 36.12 25.74 50.26m1.526-10.262-6.926-1.636a1 1 0 0 1-.478-1.68l5.508-5.508a2 2 0 0 1 1.398-.586l6.21-.054" stroke="#fff" strokeWidth="2.5" strokeLinecap="round" strokeLinejoin="round"/><path clipRule="evenodd" d="m53.758 31.95 1.616-7.776c.44-2.116-1.432-3.988-3.548-3.548l-7.776 1.616c-2.29.476-4.39 1.61-6.042 3.264l-6.38 6.378a16.012 16.012 0 0 0-4.518 8.996l-.022.146a6.962 6.962 0 0 0 1.964 5.922v0a6.952 6.952 0 0 0 5.922 1.962l.146-.022a16 16 0 0 0 8.996-4.518l6.378-6.378a11.985 11.985 0 0 0 3.264-6.042v0Z" stroke="#fff" strokeWidth="2.5" strokeLinecap="round" strokeLinejoin="round"/><path d="M40.8 23.428A44.83 44.83 0 0 1 52.572 35.2M36 48.734l1.636 6.926a1 1 0 0 0 1.68.478l5.508-5.508a2 2 0 0 0 .586-1.398l.054-6.21" stroke="#fff" strokeWidth="2.5" strokeLinecap="round" strokeLinejoin="round"/><defs><linearGradient id="a" x1="37.5" y1="0" x2="37.5" y2="75" gradientUnits="userSpaceOnUse"><stop stopColor="#23AF70"/><stop offset="1" stopColor="#25DC8C"/></linearGradient></defs></svg>
             <h4>Valores</h4>
             <p>
-            Amor ao próximo, ética, excelência,
-             paixão, transparência, humildade e verdade.
+              Ética, Excelência, Honestidade e amor ao próximo.
             </p>
           </div>
         </div>

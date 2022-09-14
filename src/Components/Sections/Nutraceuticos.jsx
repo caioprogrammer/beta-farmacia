@@ -31,48 +31,42 @@ const Nutraceuticos = () => {
                   <img className='mw-100' src="https://via.placeholder.com/400x336" alt="placeholder" />
                 </div>
                 <div className="tab-pane__content col-lg-8">
-                  <h2>Nutracêuticos1</h2>
+                  <h2>Nutracêuticos</h2>
                   <p>
-                    Os nutracêuticos são suplementos alimentares que trazem
-                    inúmeros benefícios para o organismo.
-                    Requer uma fabricação rigorosa e com muitos cuidados.
-                    Utilizamos das melhores tecnologias e profissionais altamente
-                    capacitados para fabricar o seu produto com a melhor
-                    qualidade do mercado. Selecione a linha desejada e confira
-                    quais produtos você pode ter:
+                    Os nutracêuticos são suplementos alimentares que trazem inúmeros benefícios para o organismo. 
+                    Requer uma fabricação especializada e controles de qualidade rigorosos. 
+                    Utilizamos das melhores tecnologias e profissionais 
+                    altamente qualificados para realizar todos os processos, 
+                    desde a criação da marca, desenvolvimento das fórmulas, produção e entrega.
                   </p>
                   <div className='tab-pane__benefits'>
                     <span className="item__benefits d-flex align-items-center">
                       <svg className='mr-2' stroke="currentColor" fill="none" strokeWidth="2" viewBox="0 0 24 24" strokeLinecap="round" strokeLinejoin="round" height="1em" width="1em" xmlns="http://www.w3.org/2000/svg"><path d="M22 11.08V12a10 10 0 1 1-5.93-9.14" /><path d="M22 4 12 14.01l-3-3" /></svg>
-                      Antioxidante
+                      Antioxidantes
                     </span>
                     <span className="item__benefits d-flex align-items-center">
                       <svg className='mr-2' stroke="currentColor" fill="none" strokeWidth="2" viewBox="0 0 24 24" strokeLinecap="round" strokeLinejoin="round" height="1em" width="1em" xmlns="http://www.w3.org/2000/svg"><path d="M22 11.08V12a10 10 0 1 1-5.93-9.14" /><path d="M22 4 12 14.01l-3-3" /></svg>
-                      Antioxidante
+                      Energia
                     </span>
                     <span className="item__benefits d-flex align-items-center">
                       <svg className='mr-2' stroke="currentColor" fill="none" strokeWidth="2" viewBox="0 0 24 24" strokeLinecap="round" strokeLinejoin="round" height="1em" width="1em" xmlns="http://www.w3.org/2000/svg"><path d="M22 11.08V12a10 10 0 1 1-5.93-9.14" /><path d="M22 4 12 14.01l-3-3" /></svg>
-                      Antioxidante
+                      Imunidade
                     </span>
                     <span className="item__benefits d-flex align-items-center">
                       <svg className='mr-2' stroke="currentColor" fill="none" strokeWidth="2" viewBox="0 0 24 24" strokeLinecap="round" strokeLinejoin="round" height="1em" width="1em" xmlns="http://www.w3.org/2000/svg"><path d="M22 11.08V12a10 10 0 1 1-5.93-9.14" /><path d="M22 4 12 14.01l-3-3" /></svg>
-                      Antioxidante
+                      Gerenciamento de peso
                     </span>
                     <span className="item__benefits d-flex align-items-center">
                       <svg className='mr-2' stroke="currentColor" fill="none" strokeWidth="2" viewBox="0 0 24 24" strokeLinecap="round" strokeLinejoin="round" height="1em" width="1em" xmlns="http://www.w3.org/2000/svg"><path d="M22 11.08V12a10 10 0 1 1-5.93-9.14" /><path d="M22 4 12 14.01l-3-3" /></svg>
-                      Antioxidante
+                      Stress/Sono
+                    </span>
+                    <span style={{flex: "1 0 auto"}} className="item__benefits d-flex align-items-center">
+                      <svg className='mr-2' stroke="currentColor" fill="none" strokeWidth="2" viewBox="0 0 24 24" strokeLinecap="round" strokeLinejoin="round" height="1em" width="1em" xmlns="http://www.w3.org/2000/svg"><path d="M22 11.08V12a10 10 0 1 1-5.93-9.14" /><path d="M22 4 12 14.01l-3-3" /></svg>
+                      Fortalecimento dos ossos e articulações
                     </span>
                     <span className="item__benefits d-flex align-items-center">
                       <svg className='mr-2' stroke="currentColor" fill="none" strokeWidth="2" viewBox="0 0 24 24" strokeLinecap="round" strokeLinejoin="round" height="1em" width="1em" xmlns="http://www.w3.org/2000/svg"><path d="M22 11.08V12a10 10 0 1 1-5.93-9.14" /><path d="M22 4 12 14.01l-3-3" /></svg>
-                      Antioxidante
-                    </span>
-                    <span className="item__benefits d-flex align-items-center">
-                      <svg className='mr-2' stroke="currentColor" fill="none" strokeWidth="2" viewBox="0 0 24 24" strokeLinecap="round" strokeLinejoin="round" height="1em" width="1em" xmlns="http://www.w3.org/2000/svg"><path d="M22 11.08V12a10 10 0 1 1-5.93-9.14" /><path d="M22 4 12 14.01l-3-3" /></svg>
-                      Antioxidante
-                    </span>
-                    <span className="item__benefits d-flex align-items-center">
-                      <svg className='mr-2' stroke="currentColor" fill="none" strokeWidth="2" viewBox="0 0 24 24" strokeLinecap="round" strokeLinejoin="round" height="1em" width="1em" xmlns="http://www.w3.org/2000/svg"><path d="M22 11.08V12a10 10 0 1 1-5.93-9.14" /><path d="M22 4 12 14.01l-3-3" /></svg>
-                      Antioxidante
+                      Cabelo, Pele e Unha
                     </span>
                   </div>
                   <a data-toggle="modal" data-target="#exampleModalCenter" href="#0" className='redirectButton'>

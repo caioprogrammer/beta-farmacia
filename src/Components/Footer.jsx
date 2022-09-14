@@ -27,13 +27,11 @@ function Footer() {
         <div className="footer__top border-bottom py-5">
           <div className="acesso">
             <p>Acesso</p>
-            <a href="#0">Início</a>
-            <a href="#0">Fabricação</a>
-            <a href="#0">Logística</a>
+            <a href="/">Início</a>
+            <a href="/fabricacao">Fabricação</a>
           </div>
           <div className="empresa">
             <p>Empresa</p>
-            <a href="#0">Carreiras</a>
             <a href="#0">Sobre</a>
           </div>
           <div className="suporte">
@@ -61,7 +59,7 @@ function Footer() {
           </div>
           <div className="sac">
             <p>SAC</p>
-            <a href="#0">9999-9999</a>
+            <a href="#0">(15)99626-0340</a>
           </div>
           <div className="dados">
             <p>Dados da Empresa</p>

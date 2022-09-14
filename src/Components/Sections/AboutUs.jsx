@@ -14,22 +14,18 @@ const AboutUs = () => {
           <div className="col-lg-5">
               <h2>Sobre nós</h2>
               <p>
-              Há mais de 15 anos, nosso fundador tinha o sonho de 
-              atingir sua independência financeira e 
-              viver exclusivamente da Internet.
+                Com mais de 25 anos de experiência como empreendedor e
+                 passando por todas as dificuldades em ter seu próprio negócio, 
+                 a Família Tulio percebeu a necessidade e oportunidade em ajudar 
+                 empreendedores a realizar o sonho em ter seu próprio negócio 
+                 no segmento de nutracêuticos.
               </p>
               <p>
-              Após falir três vezes e ter pensado até mesmo em 
-              tirar a própria vida, conseguiu finalmente adquirir conhecimento 
-              e desenvolver ferramentas e soluções inovadoras que 
-              possibilitaram a realização desse sonho, transformando 
-              a sua vida e de toda sua família.
-              </p>
-              <p>
-              Hoje, tem por missão facilitar a jornada de 
-              outros sonhadores que também desejam mudar sua 
-              história e alcançar a independência financeira 
-              de toda sua família.
+                A empresa Italabs, localizada na cidade de Itaporanga-SP, 
+                vem para facilitar você empreendedor a criar sua marca com segurança, 
+                desenvolver seus produtos dentro das legislações pertinentes e 
+                permitir iniciar seu negócio com baixo investimento além 
+                de apresentar soluções para te ajudar a vender.
               </p>
               <a href="#0" className='moreButton'>
                   Saiba Mais

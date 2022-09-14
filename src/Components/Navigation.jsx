@@ -21,8 +21,6 @@ function Navigation() {
                 </a>
                 <div className="dropdown-menu show" aria-labelledby="navbarDropdown">
                   <NavLink className="dropdown-item" to="/fabricacao">Fabricação</NavLink>
-                  <div className="dropdown-divider"></div>
-                  <NavLink className="dropdown-item" to="/logistica">Logística</NavLink>
                 </div>
               </li>
               <li className="nav-item">
