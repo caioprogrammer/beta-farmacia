@@ -1,5 +1,5 @@
 import React from 'react';
-// import logo from '../assets/thumbnail.png';
+import { FrenteItalabs } from '../assets';
 
 const BannerHome = (props) => {
   return (
@@ -13,7 +13,7 @@ const BannerHome = (props) => {
           </a>
         </div>
         <div className="videoHome col-12 col-lg-6">
-          <img className='rounded-lg' src="https://via.placeholder.com/600x400" alt="alt" />
+          <img className='rounded-lg' src={FrenteItalabs} alt="alt" />
         </div>
       </div>  
     </div>
