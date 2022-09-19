@@ -1,4 +1,5 @@
 import React from 'react'
+import { Parceiro } from '../../assets'
 
 const Parcerias = (props) => {
   return (
@@ -15,7 +16,7 @@ const Parcerias = (props) => {
         </p>
       </div>
       <div className='image d-none d-md-flex col-auto'>
-        <img style={{marginTop: "-25px"}} src="https://via.placeholder.com/355x400" alt="ooo" />
+        <img style={{marginTop: "-25px", maxWidth: "760px"}} src={Parceiro} alt="Parceria de Sucesso, imagem com duas pessoas se cumprimentando!" />
       </div>
     </div>
 </section>

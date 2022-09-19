@@ -7,3 +7,4 @@ export { default as Principal2 } from "../assets/imagem_2_principal.webp";
 export { default as Principal3 } from "../assets/imagem_3_principal.webp";
 export { default as Principal4 } from "../assets/imagem_4_principal.webp";
 export { default as Fabricacao1 } from "../assets/fabricacao_imagem1.webp";
+export { default as Parceiro } from "../assets/foto-parceiro.jpeg";

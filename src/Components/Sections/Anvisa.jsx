@@ -1,4 +1,5 @@
 import React from 'react'
+import { Principal4 } from '../../assets'
 
 const Anvisa = (props) => {
   return (
@@ -16,7 +17,7 @@ const Anvisa = (props) => {
         </a>
       </div>
       <div className='image d-none d-md-flex col-auto'>
-        <img style={{marginTop: "-25px"}} src="https://via.placeholder.com/355x400" alt="ooo" />
+        <img style={{marginTop: "-25px", maxWidth: "760px"}} src={Principal4} alt="" />
       </div>
     </div>
   </section>

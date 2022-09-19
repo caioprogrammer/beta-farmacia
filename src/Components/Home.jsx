@@ -37,7 +37,7 @@ function Home() {
     
     <Ecosistema
       effect="fade-left" 
-      title="Já tem produto e quer trazer para a Italabs:" 
+      title="Já tem produto e quer trazer para a Italabs?" 
       subtitle="Se você já possui parceiro de fabricação, mas enfrenta dificuldades em alguma etapa do processo, como qualidade, registro de marca, altas quantidades para fabricação, alto investimento, prazo de entrega e logística, converse com nossa equipe que iremos te ajudar a resolver seus problemas. "
     />
 
