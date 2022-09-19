@@ -8,8 +8,9 @@ import {
   About,
   Contact,
   Fabricacao,
-  Logistica,
-  FormModal
+  FormModal,
+  Termos,
+  Politica
 } from "./Components";
 
 
@@ -23,10 +24,11 @@ root.render(
   {/* <Home /> */}
   <Routes>
     <Route path="/" element={<Home />} />
-    <Route path="/about" element={<About />} />
-    <Route path="/contact" element={<Contact />} />
+    <Route path="/sobre" element={<About />} />
+    <Route path="/contato" element={<Contact />} />
     <Route path="/fabricacao" element={<Fabricacao />} />
-    <Route path="/logistica" element={<Logistica />} />
+    <Route path="/termos-de-uso" element={<Termos />} />
+    <Route path="/politica" element={<Politica />} />
   </Routes>
   <Footer />
 </Router>,

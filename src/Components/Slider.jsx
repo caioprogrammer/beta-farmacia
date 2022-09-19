@@ -1,5 +1,6 @@
 import React, { Component } from "react";
 import Slider from "react-slick";
+import { FrenteItalabs, Principal2, Principal3 } from "../assets";
 
 export default class SimpleSlider extends Component {
   render() {
@@ -15,13 +16,13 @@ export default class SimpleSlider extends Component {
       <div>
         <Slider {...settings}>
           <div>
-            <img className="mw-100 rounded-lg" alt="slider" src="https://via.placeholder.com/535x400" />
+            <img className="mw-100 rounded-lg" alt="slider" src={FrenteItalabs} />
           </div>
           <div>
-            <img className="mw-100 rounded-lg" alt="slider" src="https://via.placeholder.com/535x400" />
+            <img className="mw-100 rounded-lg" alt="slider" src={Principal2} />
           </div>
           <div>
-            <img className="mw-100 rounded-lg" alt="slider" src="https://via.placeholder.com/535x400" />
+            <img className="mw-100 rounded-lg" alt="slider" src={Principal3} />
           </div>
         </Slider>
       </div>
