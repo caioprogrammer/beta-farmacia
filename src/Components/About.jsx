@@ -41,7 +41,7 @@ function About() {
               <Slider />
           </div>
         </div>
-        <div className="d-flex align-items-center my-5 justify-content-between flex-md-row flex-column">
+        {/* <div className="d-flex align-items-center my-5 justify-content-between flex-md-row flex-column">
           <div className="about__item d-flex flex-md-column align-items-md-center text-md-center">
           <svg className="w-100" xmlns="http://www.w3.org/2000/svg" width="48" height="48" viewBox="0 0 48 48" fill="none"><path d="M30.002 5.992H19.654c-1.06 0-2.079.423-2.83 1.173l-.827.828" stroke="#4A4A4A" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round"/><path clipRule="evenodd" d="M29.002 17.997H18.998v-4.001a2 2 0 0 1 2-2.001h6.003a2 2 0 0 1 2.001 2v4.002Zm-.428 0h-9.148a7.432 7.432 0 0 0-7.43 7.432v14.578a4 4 0 0 0 4 4.001h16.008a4 4 0 0 0 4.001-4.001V25.429a7.432 7.432 0 0 0-7.431-7.431Z" stroke="#4A4A4A" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round"/><path d="M24 5.992v6.003" stroke="#4A4A4A" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round"/></svg>
             <p>
@@ -60,7 +60,7 @@ function About() {
             Atua no segmento de nutracêuticos, cosméticos, solúveis, suplementos e chás.
             </p>
           </div>
-        </div>
+        </div> */}
       </div>
     </div>
     <div className="about__bottom py-5">

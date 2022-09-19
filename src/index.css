@@ -615,3 +615,7 @@ a.redirectButton:hover svg {
 .dropdown-item.active, .dropdown-item:active {
   background-color: var(--primary-bg) !important
 }
+
+.item__benefits svg {
+  min-width: 1rem;
+}

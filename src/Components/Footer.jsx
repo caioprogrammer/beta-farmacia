@@ -59,7 +59,7 @@ function Footer() {
           </div>
           <div className="sac">
             <p>SAC</p>
-            <a href="#0">(15)99626-0340</a>
+            <a href="#0">(15) 99626-0340</a>
             <a href="#0">(15) 99679-4076</a>
             <a href="#0">(47) 99124-1414</a>
           </div>
@@ -67,13 +67,22 @@ function Footer() {
             <p>Dados da Empresa</p>
             <a href="#0">
             Italabs Nutracêuticos Ltda. <br /> 
-            CNPJ: 39-747.421/0001-16
+            CNPJ: 39.747.421/0001-16
             </a>
           </div>
         </div>
         <div className="footer__bottom py-4">
           <img style={{ width: "175px" }} src={logoFooter} alt="Logo Bottom" />
-          <span>Feito com ❤️ por <a href="https://www.swordagency.com.br">Sword Agency</a> </span>
+          <span>Feito com ❤️ por <a style={{color: "#fff"}} href="https://www.swordagency.com.br">Sword Agency</a> </span>
+        </div>
+
+        <div className="footer__final py-4">
+          <p className="text-center">
+            Todos os Direitos Reservados. As informações contidas nesse site são fornecidas somente para fins educativos e não tem a intenção de substituir, de forma alguma,
+            a relação entre médico e paciente. Todas as decisções relacionadas a tratamento de pacientes devem ser tomadas por profissionais 
+            especializados que conhecem o histórico dos pacientes. As informações aqui contidas destinam-se ao público em geral. 
+            Em caso de dúvidas, favor contatar o nosso Serviço de Atencimento ao Consumidor.
+          </p>
         </div>
       </div>
     </div>
