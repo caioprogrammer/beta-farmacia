@@ -24,18 +24,18 @@ function Navigation() {
                 </div>
               </li>
               <li className="nav-item">
-                <NavLink className="nav-link" to="/about">
+                <NavLink className="nav-link" to="/sobre">
                   Sobre
                 </NavLink>
               </li>
               <li className="nav-item">
-                <NavLink className="nav-link" to="/contact">
+                <NavLink className="nav-link" to="/contato">
                   Fale Conosco
                 </NavLink>
               </li>
               
               <li className="nav-item">
-                <NavLink className="nav-link link-parceiro" to="/contact">
+                <NavLink className="nav-link link-parceiro" to="/contato">
                   Quero ser parceiro
                 </NavLink>
               </li>
