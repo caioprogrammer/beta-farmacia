@@ -7,7 +7,7 @@ function Navigation() {
     <div className="navigation">
       <nav className="navbar sticky-top navbar-expand-lg navbar-dark">
         <div className="container">
-          <NavLink className="navbar-brand" to="/">
+          <NavLink data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation" className="navbar-brand" to="/">
             <img style={{ maxWidth: "173px" }} alt="logo" src={logo} />
           </NavLink>
           <button className="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
