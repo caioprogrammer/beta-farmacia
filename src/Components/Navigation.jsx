@@ -20,22 +20,22 @@ function Navigation() {
                   Serviços
                 </a>
                 <div className="dropdown-menu show" aria-labelledby="navbarDropdown">
-                  <NavLink className="dropdown-item" to="/fabricacao">Fabricação</NavLink>
+                  <NavLink data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation" className="dropdown-item" to="/fabricacao">Fabricação</NavLink>
                 </div>
               </li>
               <li className="nav-item">
-                <NavLink className="nav-link" to="/sobre">
+                <NavLink data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation" className="nav-link" to="/sobre">
                   Sobre
                 </NavLink>
               </li>
               <li className="nav-item">
-                <NavLink className="nav-link" to="/contato">
+                <NavLink data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation" className="nav-link" to="/contato">
                   Fale Conosco
                 </NavLink>
               </li>
               
               <li className="nav-item">
-                <NavLink className="nav-link link-parceiro" to="/contato">
+                <NavLink data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation" className="nav-link link-parceiro" to="/contato">
                   Quero ser parceiro
                 </NavLink>
               </li>
