@@ -26,7 +26,7 @@ function Contact() {
   function sendSubmit(e) {
     e.preventDefault();
 
-    emailjs.sendForm('gmail_testMessage', 'template_3vrnfad', form.current, 'kpi9EdKjqm6bPrSB9')
+    emailjs.sendForm('service_3meipxg', 'template_3vrnfad', form.current, 'kpi9EdKjqm6bPrSB9')
       .then((result) => {
         alert('Mensagem enviada com sucesso! :')
       }, (error) => {
