@@ -27,7 +27,7 @@ const FormModal = () => {
   function sendSubmit(e) {
     e.preventDefault();
 
-    emailjs.sendForm('gmail_testMessage', 'template_8up2c46', form.current, 'xOTHsZXlHe_hLzkYH')
+    emailjs.sendForm('service_3meipxg', 'template_3vrnfad', form.current, 'xOTHsZXlHe_hLzkYkpi9EdKjqm6bPrSB9')
       .then((result) => {
         alert('Mensagem enviada com sucesso! :')
       }, (error) => {
