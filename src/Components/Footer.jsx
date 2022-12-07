@@ -87,7 +87,7 @@ function Footer() {
       </div>
 
       <a rel="noreferrer" href="https://api.whatsapp.com/send?phone=5515996794070&text=Ol%C3%A1%20Italabs%2C%20gostaria%20de%20fazer%20meus%20suplementos%20com%20voc%C3%AAs%21" class="float" target="_blank">
-        <i class="fa fa-whatsapp my-float"></i>
+        <i className="fa fa-whatsapp my-float"></i>
       </a>
     </div>
   );
