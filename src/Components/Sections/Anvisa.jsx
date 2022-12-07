@@ -12,7 +12,7 @@ const Anvisa = (props) => {
           seus produtos para que eles sejam fabricados 
           de acordo com as normas da ANVISA.
         </p>
-        <a data-toggle="modal" data-target="#exampleModalCenter" href="#0" className='redirectButton'>
+        <a href="/contato" className='redirectButton'>
           Quero ser parceiro
         </a>
       </div>

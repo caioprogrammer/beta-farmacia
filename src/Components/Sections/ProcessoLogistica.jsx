@@ -21,7 +21,7 @@ const ProcessosLog = () => {
             
           </div>
           <div className="d-flex align-items-center justify-content-center">
-              <a data-toggle="modal" data-target="#exampleModalCenter" href="#0" className='redirectButton'>
+              <a href="/contato" className='redirectButton'>
                 Quero ser parceiro
               </a>  
             </div>

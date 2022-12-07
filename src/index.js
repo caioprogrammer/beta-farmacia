@@ -19,7 +19,7 @@ const container = document.getElementById('root');
 const root = createRoot(container);
 root.render( 
 <Router>
-  <FormModal />
+  {/* <FormModal /> */}
   <Navigation />
   {/* <Home /> */}
   <Routes>

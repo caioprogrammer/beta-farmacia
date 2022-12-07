@@ -16,7 +16,7 @@ const Lider = (props) => {
             <p>
               {props.text}
             </p>
-            <a data-toggle="modal" data-target="#exampleModalCenter" href="#0" className='redirectButton'>
+            <a href="/contato" className='redirectButton'>
               Quero ser parceiro
             </a>
           </div>
