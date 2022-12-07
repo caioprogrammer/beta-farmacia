@@ -8,7 +8,7 @@ const BannerHome = (props) => {
         <div className="textHome col-12 col-lg-6">
           <h1>{props.name}</h1>
           <p>{props.subtitle}</p>
-          <a href="#0" className='redirectButton'>
+          <a href="/sobre" className='redirectButton'>
             Conheça a nossa linha
           </a>
         </div>

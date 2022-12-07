@@ -68,7 +68,7 @@ function Contact() {
                 </div>
                 <div className="">
                   <label htmlFor="tel">Celular</label>
-                  <input value={telefone} onChange={(e) => setTelefone(e.target.value)} className="mw-100" type="tel" id="tel" name="tel" placeholder="(99)99999-9999" required=""/>
+                  <input value={telefone} onChange={(e) => setTelefone(e.target.value)} className="mw-100" type="tel" id="telefone" name="telefone" placeholder="(99)99999-9999" required=""/>
                 </div>
                 <div className="">
                   <label htmlFor="cnpj">CNPJ</label>
