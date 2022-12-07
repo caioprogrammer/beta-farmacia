@@ -6,7 +6,7 @@ const FormModal = () => {
   const form = useRef();
   const [name, setName] = useState("");
   const [email, setEmail] = useState("");
-  // const [cnpj, setCnpj] = useState("");
+  const [telefone, setTelefone] = useState("");
   const [assunto, setAssunto] = useState("");
   const [values, setValues] = useState({ cnpj: '' })
 
@@ -65,6 +65,10 @@ const FormModal = () => {
                 <div className="">
                   <label htmlFor="email">Email</label>
                   <input value={email} onChange={(e) => setEmail(e.target.value)} className="mw-100" type="email" id="email" name="email" placeholder=" Ex: seunome@gmail.com" required=""/>
+                </div>
+                <div className="">
+                  <label htmlFor="tel">Celular</label>
+                  <input value={telefone} onChange={(e) => setTelefone(e.target.value)} className="mw-100" type="tel" id="tel" name="tel" placeholder="(99)99999-9999" required=""/>
                 </div>
                 <div className="">
                   <label htmlFor="cnpj">CNPJ</label>

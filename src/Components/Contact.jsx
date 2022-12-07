@@ -1,4 +1,5 @@
 import React, {useRef, useState} from "react";
+import { useNavigate } from "react-router-dom";
 import Banner from "./Banner";
 import emailjs from 'emailjs-com';
 
@@ -6,10 +7,13 @@ function Contact() {
   const form = useRef();
   const [name, setName] = useState("");
   const [email, setEmail] = useState("");
+  const [telefone, setTelefone] = useState("");
   const [assunto, setAssunto] = useState("");
   const [values, setValues] = useState({ cnpj: '' })
 
   const [textarea, setTextarea] = useState("");
+
+  const navigate = useNavigate();
 
   const handleChange = (event) => {
     setTextarea(event.target.value)
@@ -28,8 +32,8 @@ function Contact() {
 
     emailjs.sendForm('service_3meipxg', 'template_3vrnfad', form.current, 'kpi9EdKjqm6bPrSB9')
       .then((result) => {
-        alert('Mensagem enviada com sucesso! :')
-        
+        alert('Mensagem enviada com sucesso!')
+        // navigate('/sobre')
       }, (error) => {
           console.log(error.message);
       });
@@ -61,6 +65,10 @@ function Contact() {
                 <div className="">
                   <label htmlFor="email">Email</label>
                   <input value={email} onChange={(e) => setEmail(e.target.value)} className="mw-100" type="email" id="email" name="email" placeholder=" Ex: seunome@gmail.com" required=""/>
+                </div>
+                <div className="">
+                  <label htmlFor="tel">Celular</label>
+                  <input value={telefone} onChange={(e) => setTelefone(e.target.value)} className="mw-100" type="tel" id="tel" name="tel" placeholder="(99)99999-9999" required=""/>
                 </div>
                 <div className="">
                   <label htmlFor="cnpj">CNPJ</label>
