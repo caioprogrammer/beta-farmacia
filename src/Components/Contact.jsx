@@ -49,18 +49,6 @@ function Contact() {
       .replace(/(-\d{2})\d+?$/, '$1') // captura os dois últimos 2 números, com um - antes dos dois números
   }
 
-  function onlyNumber(evt) {
-    var theEvent = evt || window.event;
-    var key = theEvent.keyCode || theEvent.which;
-    key = String.fromCharCode( key );
-    //var regex = /^[0-9.,]+$/;
-    var regex = /^[0-9.]+$/;
-    if( !regex.test(key) ) {
-       theEvent.returnValue = false;
-       if(theEvent.preventDefault) theEvent.preventDefault();
-    }
- }
-
   return (
     <section>
       <Banner name="Fale Conosco" subtitle="Dúvidas sobre produtos e/ou serviços? Nosso time está preparado para atender você." />
@@ -80,7 +68,7 @@ function Contact() {
                 </div>
                 <div className="">
                   <label htmlFor="tel">Celular</label>
-                  <input onKeyDown={(e) => onlyNumber(e)} value={telefone} onChange={(e) => setTelefone(e.target.value)} className="mw-100" type="text" id="telefone" name="telefone" placeholder="(99)99999-9999" required=""/>
+                  <input value={telefone} onChange={(e) => setTelefone(e.target.value)} className="mw-100" type="text" id="telefone" name="telefone" placeholder="(99)99999-9999" required=""/>
                 </div>
                 <div className="">
                   <label htmlFor="cnpj">CNPJ</label>
