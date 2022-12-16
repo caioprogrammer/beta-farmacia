@@ -36,7 +36,7 @@ function Footer() {
           </div>
           <div className="suporte">
             <p>Suporte</p>
-            <a href="/contato">Fale Conosco</a>
+            <a target={"_blank"} rel="noreferrer" href="https://api.whatsapp.com/send?phone=5515996794070&text=Ol%C3%A1%20Italabs%2C%20gostaria%20de%20fazer%20meus%20suplementos%20com%20voc%C3%AAs%21">Fale Conosco</a>
             <a href="/termos-de-uso">Termos de Uso</a>
             <a href="/politica">Política de Privacidade</a>
           </div>

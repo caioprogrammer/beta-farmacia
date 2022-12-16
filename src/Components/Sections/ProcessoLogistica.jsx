@@ -21,7 +21,7 @@ const ProcessosLog = () => {
             
           </div>
           <div className="d-flex align-items-center justify-content-center">
-              <a href="/contato" className='redirectButton'>
+              <a target={"_blank"} rel="noreferrer" href="https://api.whatsapp.com/send?phone=5515996794070&text=Ol%C3%A1%20Italabs%2C%20gostaria%20de%20fazer%20meus%20suplementos%20com%20voc%C3%AAs%21" className='redirectButton'>
                 Quero ser parceiro
               </a>  
             </div>

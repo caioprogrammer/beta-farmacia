@@ -1,5 +1,5 @@
 import React, {useRef, useState} from "react";
-import { useNavigate } from "react-router-dom";
+// import { useNavigate } from "react-router-dom";
 import Banner from "./Banner";
 import emailjs from 'emailjs-com';
 
@@ -13,7 +13,7 @@ function Contact() {
 
   const [textarea, setTextarea] = useState("");
 
-  const navigate = useNavigate();
+  // const navigate = useNavigate();
 
   const handleChange = (event) => {
     setTextarea(event.target.value)

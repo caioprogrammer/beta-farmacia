@@ -29,15 +29,21 @@ function Navigation() {
                 </NavLink>
               </li>
               <li className="nav-item">
-                <NavLink data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation" className="nav-link" to="/contato">
+                <a rel="noreferrer" target={"_blank"} className="nav-link" href="https://api.whatsapp.com/send?phone=5515996794070&text=Ol%C3%A1%20Italabs%2C%20gostaria%20de%20fazer%20meus%20suplementos%20com%20voc%C3%AAs%21">
                   Fale Conosco
-                </NavLink>
+                </a>
+                {/* <NavLink data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation" className="nav-link" to="/contato">
+                  Fale Conosco
+                </NavLink> */}
               </li>
               
               <li className="nav-item">
-                <NavLink data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation" className="nav-link link-parceiro" to="/contato">
+                <a rel="noreferrer" target={"_blank"} className="nav-link link-parceiro" href="https://api.whatsapp.com/send?phone=5515996794070&text=Ol%C3%A1%20Italabs%2C%20gostaria%20de%20fazer%20meus%20suplementos%20com%20voc%C3%AAs%21">
+                  Quero ser Parceiro
+                </a>
+                {/* <NavLink data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation" className="nav-link link-parceiro" to="/contato">
                   Quero ser parceiro
-                </NavLink>
+                </NavLink> */}
               </li>
               
             </ul>
