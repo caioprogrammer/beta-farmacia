@@ -672,6 +672,11 @@ a.redirectButton:hover svg {
   animation: colorChanger 5s infinite;
   transition: color 0s ease;
 }
+@media screen and (max-width: 768px) {
+  .bar-top a {
+    font-size: 12px;
+  }
+}
 
 @keyframes colorChanger {
   0% {
