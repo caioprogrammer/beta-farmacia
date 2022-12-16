@@ -676,6 +676,9 @@ a.redirectButton:hover svg {
   .bar-top a {
     font-size: 12px;
   }
+  .navbar {
+    margin: 3rem auto 0;
+  }
 }
 
 @keyframes colorChanger {
