@@ -36,7 +36,7 @@ function Footer() {
           </div>
           <div className="suporte">
             <p>Suporte</p>
-            <a target={"_blank"} rel="noreferrer" href="https://api.whatsapp.com/send?phone=5547991241414&text=Ol%C3%A1%20Italabs%2C%20gostaria%20de%20fazer%20meus%20suplementos%20com%20voc%C3%AAs%21">Fale Conosco</a>
+            <a target={"_blank"} rel="noreferrer" href="https://api.whatsapp.com/send?phone=5515998065216&text=Ol%C3%A1%20Italabs%2C%20gostaria%20de%20fazer%20meus%20suplementos%20com%20voc%C3%AAs%21">Fale Conosco</a>
             <a href="/termos-de-uso">Termos de Uso</a>
             <a href="/politica">Política de Privacidade</a>
           </div>
@@ -61,7 +61,7 @@ function Footer() {
             <p>SAC</p>
             <a href="#0">(15) 99626-0340</a>
             <a href="#0">(15) 99679-4076</a>
-            <a href="#0">(47) 99124-1414</a>
+            <a href="#0">(15) 99806-5216</a>
           </div>
           <div className="dados">
             <p>Dados da Empresa</p>
@@ -86,7 +86,7 @@ function Footer() {
         </div>
       </div>
 
-      <a rel="noreferrer" href="https://api.whatsapp.com/send?phone=5547991241414&text=Ol%C3%A1%20Italabs%2C%20gostaria%20de%20fazer%20meus%20suplementos%20com%20voc%C3%AAs%21" class="float" target="_blank">
+      <a rel="noreferrer" href="https://api.whatsapp.com/send?phone=5515998065216&text=Ol%C3%A1%20Italabs%2C%20gostaria%20de%20fazer%20meus%20suplementos%20com%20voc%C3%AAs%21" class="float" target="_blank">
         <i className="fa fa-whatsapp my-float"></i>
       </a>
     </div>
