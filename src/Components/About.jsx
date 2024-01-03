@@ -23,7 +23,7 @@ function About() {
               empreendedores a realizar o sonho em ter seu próprio negócio no segmento de nutracêuticos. 
             </p>
             <p>
-              A empresa Italabs, localizada na cidade de Itaporanga-SP, 
+              A empresa Lot Nutrition, localizada na cidade de Itaporanga-SP, 
               vem para facilitar você empreendedor a criar sua marca com segurança, 
               desenvolver seus produtos dentro das legislações pertinentes e permitir iniciar seu 
               negócio com baixo investimento além de apresentar soluções para te ajudar a vender.
