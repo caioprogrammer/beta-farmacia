@@ -1,5 +1,5 @@
 import React from "react";
-import logoFooter from '../assets/logo_branca.png';
+// import logoFooter from '../assets/logo_branca.png';
 
 function Footer() {
   return (
@@ -72,8 +72,8 @@ function Footer() {
           </div>
         </div>
         <div className="footer__bottom py-4">
-          <img style={{ width: "175px" }} src={logoFooter} alt="Logo Bottom" />
-          <span>Feito com ❤️ por <a style={{color: "#fff"}} href="https://www.swordagency.com.br">Sword Agency</a> </span>
+          {/* <img style={{ width: "175px" }} src={logoFooter} alt="Logo Bottom" /> */}
+          <span>Feito com ❤️ por <a style={{color: "#fff"}} href="https://www.instagram.com/swordagency.dev/">Sword Agency</a> </span>
         </div>
 
         <div className="footer__final py-1">

@@ -429,6 +429,15 @@ a.redirectButton:hover svg {
 
 
 @media screen and (max-width: 992px) {
+  
+.navbar-mobile {
+  height: 0 !important;
+  overflow: hidden !important;
+  transition: ease .5s;
+}
+.navbar-mobile.show {
+  height: 100% !important;
+}
   .contact .container div.align-items-center {
     gap: 5rem;
   }
@@ -694,14 +703,4 @@ a.redirectButton:hover svg {
   100% {
     color: red;
   }
-}
-
-
-.navbar-mobile {
-  height: 0 !important;
-  overflow: hidden !important;
-  transition: ease .5s;
-}
-.navbar-mobile.show {
-  height: 100% !important;
 }
