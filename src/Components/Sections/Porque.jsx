@@ -7,9 +7,9 @@ const Porque = (props) => {
       <div data-aos={props.effect} className="container py-5">
       <div className="row align-items-center ">
           <div className="col-lg-6 col-md-12">
-            <h2>Por que escolher a Italabs?</h2>
+            <h2>Por que escolher a Lot Nutrition?</h2>
             <p>
-            A Italabs oferece diversas soluções e estratégicas 
+            A Lot Nutrition oferece diversas soluções e estratégicas 
             para seus parceiros, sempre com o intuito de fazer mais e melhor. 
             Um time multiprofissional formado por Farmacêuticos, 
             Nutricionistas e Engenheiros irão te auxiliar 

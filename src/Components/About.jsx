@@ -5,7 +5,7 @@ import { Banner, Slider } from "./index";
 
 function About() {
   const title = "Sobre Nós"
-  const subtitle = "Somos a Italabs Indústria de Nutracêuticos e estamos aqui para ser seu parceiro, criar sua marca, terceirizar a fabricação de seus produtos e te ajudar a alavancar seu negócio. ";
+  const subtitle = "Somos a Lot Nutrition e estamos aqui para ser seu parceiro, criar sua marca, terceirizar a fabricação de seus produtos e te ajudar a alavancar seu negócio.";
   return (
   <section>
     <Banner 

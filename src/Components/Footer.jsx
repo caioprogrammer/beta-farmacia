@@ -66,7 +66,7 @@ function Footer() {
           <div className="dados">
             <p>Dados da Empresa</p>
             <a href="#0">
-            Italabs Nutracêuticos Ltda. <br /> 
+            Lot Nutrition <br /> 
             CNPJ: 39.747.421/0001-16
             </a>
           </div>
